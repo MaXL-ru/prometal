@@ -6,9 +6,18 @@
  * */
 
 $(function () {
+  var findFancyboxOverlay = function () {
+    return $("body *:not(.fancybox-overlay, .fancybox-overlay *)");
+  };
+  
   $('.fancybox').fancybox(
     {
-      
+      beforeShow: function () {
+        findFancyboxOverlay().addClass("blur");
+      },
+      afterClose: function () {
+        findFancyboxOverlay().removeClass("blur");
+      }
     }
   );
 });
