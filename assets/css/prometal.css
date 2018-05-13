@@ -13,7 +13,7 @@ body {
 }
 
 body, h1 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Century Gothic', 'PT Sans', sans-serif;
 }
 
 a {
@@ -85,4 +85,8 @@ a:hover {
 
 .section__text {
   font-size: 1.2rem;
+}
+
+.data__title {
+  font-size: 1.3rem;
 }
