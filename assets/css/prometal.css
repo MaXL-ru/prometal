@@ -4,7 +4,7 @@
 */
 
 .row {
-  width: 80rem;
+  max-width: 80rem;
 }
 
 body {
@@ -59,6 +59,10 @@ a:hover {
   padding-bottom: 8rem;
 }
 
+.section.data {
+  padding-bottom: 0;
+}
+
 .section__title {
   padding-bottom: 3rem;
 }
@@ -89,4 +93,15 @@ a:hover {
 
 .data__title {
   font-size: 1.3rem;
+}
+
+.menu__item {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+footer {
+  color: #999;
+  font-size: 0.8rem;
+  padding: 2rem 0;
 }
